@@ -1,5 +1,5 @@
 
-
+from unittest.mock import patch
 from pyfixit.diagnostics import (
     check_dependency_declared,
     diagnose_dependency,
@@ -38,10 +38,16 @@ def test_dependency_not_declared_with_other_package():
 
 
 def test_diagnose_missing_declaration():
-    result = diagnose_dependency(
-        "pandas",
-        []
-    )
+
+    with patch(
+        "pyfixit.diagnostics.check_dependency_installed",
+        return_value=True
+    ):
+
+        result = diagnose_dependency(
+            "pandas",
+            []
+        )
 
     assert result["module"] == "pandas"
     assert result["declared"] is False

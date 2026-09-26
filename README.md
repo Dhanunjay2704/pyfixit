@@ -6,13 +6,13 @@ PyFixIt is a command-line tool that analyzes Python projects and diagnoses commo
 
 It can detect:
 
-* Missing dependencies
-* Undeclared dependencies
-* Version conflicts
-* Unused dependencies
-* Standard-library modules
-* Local project modules
-* Package-name differences such as `sklearn -> scikit-learn`
+- Missing dependencies
+- Undeclared dependencies
+- Version conflicts
+- Unused dependencies
+- Standard-library modules
+- Local project modules
+- Package-name differences such as `sklearn -> scikit-learn`
 
 ---
 
@@ -332,15 +332,15 @@ Nothing to remove.
 
 ## Available Commands
 
-| Command                     | Description                   |
-| --------------------------- | ----------------------------- |
-| `pyfixit diagnose .`        | Diagnose project dependencies |
-| `pyfixit check .`           | Quickly check project health  |
-| `pyfixit clean .`           | Preview unused dependencies   |
-| `pyfixit clean . --apply`   | Remove unused dependencies    |
-| `pyfixit diagnose . --json` | Output diagnosis as JSON      |
-| `pyfixit --help`            | Show help                     |
-| `pyfixit --version`         | Show version                  |
+| Command | Description |
+|---|---|
+| `pyfixit diagnose .` | Diagnose project dependencies |
+| `pyfixit check .` | Quickly check project health |
+| `pyfixit clean .` | Preview unused dependencies |
+| `pyfixit clean . --apply` | Remove unused dependencies |
+| `pyfixit diagnose . --json` | Output diagnosis as JSON |
+| `pyfixit --help` | Show help |
+| `pyfixit --version` | Show version |
 
 ---
 
@@ -406,8 +406,8 @@ This allows PyFixIt to provide more accurate installation suggestions.
 
 PyFixIt currently requires:
 
-* Python 3.10+
-* `packaging >= 22`
+- Python 3.10+
+- `packaging >= 22`
 
 ---
 
