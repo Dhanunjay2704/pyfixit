@@ -8,6 +8,7 @@ __pycache__/
 venv/
 env/
 wheel_test/
+testpypi_env/
 test_env/
 .env
 .env.*
