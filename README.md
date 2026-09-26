@@ -1,5 +1,9 @@
 # PyFixIt
 
+[![PyPI](https://img.shields.io/pypi/v/pyfixit-cli.svg)](https://pypi.org/project/pyfixit-cli/)
+[![Python](https://img.shields.io/pypi/pyversions/pyfixit-cli.svg)](https://pypi.org/project/pyfixit-cli/)
+[![License](https://img.shields.io/pypi/l/pyfixit-cli.svg)](https://github.com/Dhanunjay2704/pyfixit/blob/main/LICENSE)
+
 ### Python Project Troubleshooter
 
 PyFixIt is a command-line tool that analyzes Python projects and diagnoses common import and dependency problems.

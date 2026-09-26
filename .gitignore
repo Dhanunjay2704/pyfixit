@@ -9,9 +9,11 @@ venv/
 env/
 wheel_test/
 testpypi_env/
+pypi_test/
 test_env/
 .env
 .env.*
+
 
 
 # Build files
