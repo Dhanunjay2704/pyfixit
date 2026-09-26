@@ -1,0 +1,6 @@
+scikit-learn
+
+requests==2.30.0
+
+fastapi
+

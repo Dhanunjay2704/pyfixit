@@ -1,0 +1,21 @@
+[project]
+name = "pyfixit"
+version = "0.1.0"
+description = "Diagnose common Python import and dependency problems"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+
+authors = [
+    {name = "Dhanunjay"}
+]
+
+dependencies = [
+    "packaging>=22"
+]
+
+[project.scripts]
+pyfixit = "pyfixit.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
